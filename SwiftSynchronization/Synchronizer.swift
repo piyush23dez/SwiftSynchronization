@@ -15,6 +15,4 @@ class Synchronizer {
         closure()
         objc_sync_exit(object)
     }
-    
-    
 }
