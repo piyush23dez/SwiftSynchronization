@@ -12,6 +12,7 @@
 		A638484A1D99A072008BBAA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63848481D99A072008BBAA8 /* Main.storyboard */; };
 		A638484C1D99A072008BBAA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A638484B1D99A072008BBAA8 /* Assets.xcassets */; };
 		A638484F1D99A072008BBAA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A638484D1D99A072008BBAA8 /* LaunchScreen.storyboard */; };
+		A63848571D99A099008BBAA8 /* Synchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63848561D99A099008BBAA8 /* Synchronizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A638484B1D99A072008BBAA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A638484E1D99A072008BBAA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A63848501D99A072008BBAA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A63848561D99A099008BBAA8 /* Synchronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A63848441D99A072008BBAA8 /* AppDelegate.swift */,
 				A63848461D99A072008BBAA8 /* ViewController.swift */,
+				A63848561D99A099008BBAA8 /* Synchronizer.swift */,
 				A63848481D99A072008BBAA8 /* Main.storyboard */,
 				A638484B1D99A072008BBAA8 /* Assets.xcassets */,
 				A638484D1D99A072008BBAA8 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				A63848471D99A072008BBAA8 /* ViewController.swift in Sources */,
 				A63848451D99A072008BBAA8 /* AppDelegate.swift in Sources */,
+				A63848571D99A099008BBAA8 /* Synchronizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

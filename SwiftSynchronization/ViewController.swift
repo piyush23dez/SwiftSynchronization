@@ -9,10 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var list = [String]()
+    let serialQueue = DispatchQueue(label: "lock")
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //Example1
+        serialQueue.sync {
+            list.append("Hello i have been locked in this gcd block")
+        }
+        
+        //Example2
+        Synchronizer.lock(object: list) {
+            list.append("Hello i have been locked in this closure")
+        }
     }
 
     override func didReceiveMemoryWarning() {
